@@ -1,0 +1,90 @@
+// bower:scss
+// endbower
+
+//minimal
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+p {
+  margin: 10px;
+}
+
+//Header
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid black;
+
+  h1 {
+    margin-left: 50px;
+    font-size: 50px;
+  }
+}
+
+//Main Container
+
+.main-container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+
+  .contain-large-small {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    display: inline-block;
+
+    .container-ls-right {
+      width: 35%;
+      height: 200px;
+      display: inline-block;
+      float: right;
+      border: 1px solid black;
+    }
+
+    .container-ls-left {
+      width: 60%;
+      height: 200px;
+      display: inline-block;
+      border: 1px solid black;
+    }
+  }
+
+  .contain-small-large {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .container-sl-right {
+      width: 60%;
+      height: 200px;
+      display: inline-block;
+      float: right;
+      border: 1px solid black;
+    }
+
+    .container-sl-left {
+      width: 35%;
+      height: 200px;
+      display: inline-block;
+      border: 1px solid black;
+    }
+}
+
+//Footer
+
+.footer-container {
+  width: 100%;
+  margin-top: 50px;
+  border-top: 1px solid black;
+  h2 {
+    margin-left: 50px;
+  }
+}
